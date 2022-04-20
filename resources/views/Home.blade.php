@@ -32,7 +32,7 @@
                                           </div>
                                        </div>
                                        <div class="col-3 col-md-2">
-                                          <button type="submit" id="search"  class="btn btn-secondary btn-block no-radius">Search</button>
+                                          <button type="submit" id="search"  class="btn btn-secondary btn-block no-radius" style="width: 70px;">Search</button>
                                        </div>
                                     </div>
                                  </div>
