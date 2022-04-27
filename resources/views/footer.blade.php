@@ -1,139 +1,61 @@
-<footer class="text-center text-white" style="background: cornflowerblue">
-    <!-- Grid container -->
-    <div class="container p-4">
-      <!-- Section: Social media -->
-      <section class="mb-4">
-        <!-- Facebook -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-          ><i class="fab fa-facebook-f"></i
-        ></a>
+<div id="contacts">
+    <footer class="footer">
+      <div class="footer-left">
+        <img src="New folder/icon.png" alt="logo">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur auctor fermentum sapien,
+           at tempus leo commodo vitae.
+          Duis pulvinar imperdiet nulla at venenatis.</p>
+          <div class="socials">
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-telegram"></i></a>
+            <a href="#"><i class="fa fa-youtube"></i></a>
+            <a href="#"><i class="fa fa-instagram"></i></a>
+          </div>
+      </div>
+      <ul class="footer-right">
+        <li class="features">
+            <h2>Useful Links</h2>
+            <ul class="box">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Our products</a></li>
+              <li><a href="#">Our Team</a></li>
+              <li><a href="#">Testimonials</a></li>
+              <li><a href="#">Contacts us</a></li>
+              <li><a href="#">Theme Design</a></li>
+            </ul>
+          </li>
+        <li>
+          <h2>Sey Hello</h2>
+         <form action="#">
+             <div class="email">
+             <div class="text">Email *</div>
+             <input type="email" required>
 
-        <!-- Twitter -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-          ><i class="fab fa-twitter"></i
-        ></a>
-
-        <!-- Google -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-          ><i class="fab fa-google"></i
-        ></a>
-
-        <!-- Instagram -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-          ><i class="fab fa-instagram"></i
-        ></a>
-
-        <!-- Linkedin -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-          ><i class="fab fa-linkedin-in"></i
-        ></a>
-
-
-      </section>
-      <!-- Section: Social media -->
-
-      <!-- Section: Form -->
-      <section class="">
-        <form action="">
-          <!--Grid row-->
-          <div class="row d-flex justify-content-center">
-            <!--Grid column-->
-            <div class="col-auto">
-              <p class="pt-2">
-                <strong>Sign up for our newsletter</strong>
-              </p>
             </div>
-            <!--Grid column-->
+            <div class="msg">
+                <div class="text">
+                    Message *
+                </div>
+                <textarea rows="2" cols="25">
 
-            <!--Grid column-->
-            <div class="col-md-5 col-12">
-              <!-- Email input -->
-              <div class="form-outline form-white mb-4">
-                <input type="email" id="form5Example2" class="form-control" value="Enter your email"/>
-                {{-- <label class="form-label" for="form5Example2">Email address</label> --}}
-              </div>
+                </textarea>
             </div>
-            <!--Grid column-->
+           <div class="btn">
+               <button type="button" class="btn btn-warning btn-sm">Send</button>
+           </div>
+         </form>
+        </li>
 
-            <!--Grid column-->
-            <div class="col-auto">
-              <!-- Submit button -->
-              <button type="submit" class="btn btn-outline-light mb-4">
-                Subscribe
-              </button>
-            </div>
-            <!--Grid column-->
-          </div>
-          <!--Grid row-->
-        </form>
-      </section>
-      <!-- Section: Form -->
+        <li>
+          <h2>Contact info</h2>
+          <ul class="box">
+            <li><a href="#"><i class="fa fa-map-marker-alt"></i> Nairobi-kenya</a></li>
+            <li><a href="#"><i class="fa fa-phone-alt"></i> +111-7777-565656</a></li>
+            <li><a href="#"><i class="fa fa-envelope"></i> campany@example.com</a></li>
 
-      <!-- Section: Text -->
-      <section class="mb-4">
-        <p>
-            Premier Agent is committed to ensuring digital accessibility for individuals with disabilities. We are continuously working to improve the accessibility of our web experience for everyone, and we welcome feedback and accommodation requests. If you wish to report an issue or seek an accommodation, please let us know.
-        </p>
-      </section>
-      <!-- Section: Text -->
-
-      <!-- Section: Links -->
-      <section class="">
-        <!--Grid row-->
-        <div class="row">
-          <!--Grid column-->
-          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-            <ul class="list-unstyled mb-0">
-              <li>
-                <a href="{{url('/Terms')}}" class="text-white">Terms & Condition</a>
-              </li>
-            </ul>
-          </div>
-          <!--Grid column-->
-
-          <!--Grid column-->
-          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-            <ul class="list-unstyled mb-0">
-              <li>
-                <a href="{{url('/Privacy')}}" class="text-white">Privacy</a>
-              </li>
-            </ul>
-          </div>
-          <!--Grid column-->
-
-          <!--Grid column-->
-          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-            <ul class="list-unstyled mb-0">
-              <li>
-                <a href="{{url('/ContactUs')}}" class="text-white">Contact Us</a>
-              </li>
-            </ul>
-          </div>
-          <!--Grid column-->
-
-          <!--Grid column-->
-          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-            <ul class="list-unstyled mb-0">
-              <li>
-                <a href="#!" class="text-white">About Us</a>
-              </li>
-
-            </ul>
-          </div>
-          <!--Grid column-->
-        </div>
-        <!--Grid row-->
-      </section>
-      <!-- Section: Links -->
+          </ul>
+        </li>
+      </ul>
+    </footer>
     </div>
-    <!-- Grid container -->
-
-    <!-- Copyright -->
-    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-      © 2022 Copyright:
-      <a class="text-white" href="">premieragent.co.ke</a>
-    </div>
-    <!-- Copyright -->
-  </footer>
-  <!-- Footer -->
-

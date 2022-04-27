@@ -46,7 +46,7 @@
 
     <!-- Modal content -->
     <center>
-    <div class="modal-content" style="width:70%">
+    <div class="modal-content" style="width:30%">
       <div class="modal-header">
         <span class="close">&times;</span>
       </div>
