@@ -18,11 +18,9 @@
             <h2>Useful Links</h2>
             <ul class="box">
               <li><a href="#">Home</a></li>
-              <li><a href="#">Our products</a></li>
-              <li><a href="#">Our Team</a></li>
-              <li><a href="#">Testimonials</a></li>
-              <li><a href="#">Contacts us</a></li>
-              <li><a href="#">Theme Design</a></li>
+              <li><a href="{{url('/Privacy')}}">Privacy</a></li>
+              <li><a href="{{url('/Terms')}}">Term & Condition</a></li>
+              <li><a href="{{url('/ContactUs')}}">Contacts us</a></li>
             </ul>
           </li>
         <li>
@@ -51,8 +49,8 @@
           <h2>Contact info</h2>
           <ul class="box">
             <li><a href="#"><i class="fa fa-map-marker-alt"></i> Nairobi-kenya</a></li>
-            <li><a href="#"><i class="fa fa-phone-alt"></i> +111-7777-565656</a></li>
-            <li><a href="#"><i class="fa fa-envelope"></i> campany@example.com</a></li>
+            <li><a href="#"><i class="fa fa-phone-alt"></i> +254 900000</a></li>
+            <li><a href="#"><i class="fa fa-envelope"></i> premier@info.com</a></li>
 
           </ul>
         </li>
