@@ -3831,7 +3831,7 @@
     font-size: small;
 }
 .search-input input{
-    width: 800px;
+    width: 700px;
 }
 
 .form-sec{
@@ -4429,10 +4429,10 @@ footer{
 
 @media (max-width : 1280px){
     .filt-btn{
-        padding-left: 175px;
+        padding-left: 55px;
     }
     .filter {
-        width: 970px;
+        width: 1120px;
         margin-right: 20px;
       }
 }
