@@ -30,7 +30,7 @@ Route::get('/House', function () {
 });
 
 Route::get('/', function () {
-    return view('home');
+    return view('Home');
 });
 
 Route::get('/Blog', function () {
