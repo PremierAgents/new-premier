@@ -107,7 +107,7 @@
 </section>
 <!--new projects-->
 <div class="viewed">
-    <div class="container">
+    <div class="container2">
         <div class="row">
             <div class="col">
                 <div class="bbb_viewed_title_container">
@@ -227,7 +227,7 @@
 
   <!--featured blod-->
   <h2 class="prop-head">Featured Blog</h2>
-  <div class="container">
+  <div class="container3s">
 	<div class="mhn-slide owl-carousel">
 		<div class="mhn-item">
 			<div class="mhn-inner">

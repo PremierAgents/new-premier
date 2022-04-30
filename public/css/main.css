@@ -4421,10 +4421,34 @@ footer{
     .filt-btn{
         padding-left: 175px;
     }
+    .filter {
+        width: 870px;
+        margin-right: 20px;
+      }
+}
+
+@media (max-width : 1280px){
+    .filt-btn{
+        padding-left: 175px;
+    }
+    .filter {
+        width: 970px;
+        margin-right: 20px;
+      }
+}
+
+@media (max-width : 1080px){
+    .filt-btn{
+        padding-left: 175px;
+    }
+    .filter {
+        width: 870px;
+        margin-right: 20px;
+      }
 }
 @media (max-width : 568px){
     .filter{
-        width: 290px;
+        width: 20px;
         margin-right: 20px;
     }
 }
@@ -4445,7 +4469,7 @@ footer{
 
 @media (max-width : 960px){
     .filter{
-        width: 320px;
+        width: 720px;
         margin-right: 20px;
     }
 }
@@ -4455,6 +4479,16 @@ footer{
     .bbb_viewed_item{
         width: 380px;
 
+    }
+}
+
+@media (max-width : 812px){
+    .filt-btn{
+        display: none;
+    }
+    .filter{
+        width: 340px;
+        margin-right: 20px;
     }
 }
 
