@@ -4409,12 +4409,17 @@ footer{
     .filt-btn{
         display: none;
     }
+
 }
+
+
 
 @media (max-width : 760px){
     .filter ul li span{
         margin: 15px;
     }
+
+
 }
 
 @media (max-width : 1080px){
@@ -4425,6 +4430,8 @@ footer{
         width: 870px;
         margin-right: 20px;
       }
+
+
 }
 
 @media (max-width : 1280px){
@@ -4435,6 +4442,8 @@ footer{
         width: 1120px;
         margin-right: 20px;
       }
+
+
 }
 
 @media (max-width : 1080px){
@@ -4445,6 +4454,8 @@ footer{
         width: 870px;
         margin-right: 20px;
       }
+
+
 }
 @media (max-width : 568px){
     .filter{
@@ -4458,6 +4469,8 @@ footer{
         width: 320px;
         margin-right: 20px;
     }
+
+
 }
 
 @media (max-width : 960px){
@@ -4465,6 +4478,8 @@ footer{
         width: 520px;
         margin-right: 20px;
     }
+
+
 }
 
 @media (max-width : 960px){
@@ -4472,14 +4487,17 @@ footer{
         width: 720px;
         margin-right: 20px;
     }
+
+
 }
 
 
 @media (max-width : 960px){
     .bbb_viewed_item{
         width: 380px;
-
     }
+
+
 }
 
 @media (max-width : 812px){
@@ -4490,5 +4508,16 @@ footer{
         width: 340px;
         margin-right: 20px;
     }
+
+    #login-form{
+        width: 100%;
+    }
 }
+#login-form{
+    width: 70%;
+}
+
+
+
+
 
