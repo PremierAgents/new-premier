@@ -373,11 +373,9 @@
 
     <!--subscribe-->
     <div class="property">
-        <div class="row">
-            <div class="col-sm-2"></div>
-
-            <div class="col-sm-4">
-              <div class="card">
+        <div class="row" id="card-info">
+            <div class="col-sm-5">
+              <div class="card" id="card-info">
                 <div class="card-body">
                   <h5 class="card-title">About premier Agent</h5>
                   <p class="card-text"> Hi, we're premier Agent, it's nice to meet you!
@@ -386,15 +384,11 @@
                     we provide Kenya's Real Estate Industry with an
                     renters searcr ing for property online.
                     We pride ourselves on delivering a great user experience and innovative search tools, so if you have any feedback you’d like to give us, we’d love to hear from you. Please get in touch!</p>
-
-
-
-
                 </div>
               </div>
             </div>
-            <div class="col-sm-3">
-              <div class="card">
+            <div class="col-sm-4">
+              <div class="card" id="card-info">
                 <div class="card-body">
                   <h5 class="card-title">List on premier Agent</h5>
                   <p class="card-text">Sign up as a Real Estate Agency with
@@ -407,8 +401,8 @@
                 </div>
               </div>
             </div>
-            <div class="col-sm-2">
-                <div class="card">
+            <div class="col-sm-3">
+                <div class="card" id="card-info">
                   <div class="card-body">
                     <h5 class="card-title">Alerts</h5>
                     <p class="card-text">Be the fi rst to sec new
@@ -421,8 +415,6 @@
                   </div>
                 </div>
              </div>
-             <div class="col-sm-2"></div>
-
         </div>
         </div>
 </div>
