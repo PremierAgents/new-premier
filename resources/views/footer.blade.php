@@ -1,3 +1,8 @@
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+<script src="https://kit.fontawesome.com/3eddf6c692.js" crossorigin="anonymous"></script>
 <div id="contacts">
     <footer class="footer">
       <div class="footer-left">
@@ -26,6 +31,11 @@
         <li>
           <h2>Sey Hello</h2>
          <form action="#">
+            <div class="name">
+                <div class="text">Name *</div>
+                <input type="name" required>
+
+               </div>
              <div class="email">
              <div class="text">Email *</div>
              <input type="email" required>
@@ -35,7 +45,7 @@
                 <div class="text">
                     Message *
                 </div>
-                <textarea rows="2" cols="25">
+                <textarea rows="2" cols="">
 
                 </textarea>
             </div>

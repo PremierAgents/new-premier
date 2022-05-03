@@ -39,7 +39,6 @@ responsive:
 575:{items:2},
 768:{items:3},
 991:{items:4},
-1199:{items:6}
 }
 });
 

@@ -3779,6 +3779,10 @@ html {
     -moz-border-radius: 5px;
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
+    height: 100px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
 }
 .filter ul{
     clear: both;
@@ -3795,7 +3799,7 @@ html {
 
 .filter ul li span{
     color: rgb(147, 143, 143);
-    font-size: 25px;
+    font-size: 15px;
     margin: 25px;
 }
 
@@ -3803,40 +3807,48 @@ html {
 /***search bar***/
 .search-input input{
     width: 70%;
-    height: 50px;
+    height: 29px;
 }
 
-.search-input{
+/* .search-input{
     display: flex;
-}
+} */
 
 .filt-btn{
     display: flex;
     margin: 20px;
     padding-left: 150px;
+    z-index: 10;
+    position: absolute;
+    right: 0;
+    top: -4px;
 }
 
 .filt-btn span{
     padding-right: 40px;
     height: 10px;
+    font-size: 10px;
+    cursor: pointer;
 }
 
 .search-btn button{
     background: #007bff;
-    border-radius: 50px;
-    -webkit-border-radius: 50px;
-    -moz-border-radius: 50px;
-    -ms-border-radius: 50px;
-    -o-border-radius: 50px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
     color: white;
     width: 100px;
     cursor: pointer;
     border: white;
-    height: 40px;
-    font-size: small;
+    height: 20px;
+    font-size: 10px;
+    top: -18px;
 }
 .search-input input{
-    width: 700px;
+    width: 400px;
+    height: 20%;
 }
 
 .form-sec{
@@ -3853,13 +3865,14 @@ html {
 @media screen and (max-width: 1080px) {
       .search-input input{
         width: 80%;
-        height: 50px;
+        height: 20%;
     }
   }
 
   @media screen and (max-width: 915px) {
     .search-input input{
         width: max-content;
+        height: 20%;
   }
 
   .search-input placeholder{
@@ -4262,7 +4275,7 @@ section {
 .mhn-slide .mhn-item{width:100%;padding:10px}
 .mhn-slide .mhn-inner{width:100%;height:100%;box-shadow:0 2px 10px 0 rgba(0,0,0,.16),0 2px 5px 0 rgba(0,0,0,.26);border-radius:3px}
 .mhn-slide .mhn-item img{display:none}
-.mhn-slide .mhn-img{min-height:200px;overflow:hidden;height:100%;width:100%;color:white;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=) #eee no-repeat center/cover;position:relative}
+.mhn-slide .mhn-img{background-repeat: no-repeat;overflow:hidden;height:100%;width:100%;color:white;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=) #eee no-repeat center/cover;position:relative}
 .mhn-slide .mhn-text{text-align:center;padding:0 10px}
 .mhn-slide .mhn-text h4{font-weight:700;white-space:nowrap;text-overflow:ellipsis;overflow:hidden}
 .mhn-slide .mhn-text p{max-height:4.5em;overflow:hidden}
@@ -4406,13 +4419,16 @@ footer{
 }
 
 .owl-item{
-    width: 220px;
+    width: 350px;
 }
 
 /***search***/
 @media (max-width : 600px){
     .filt-btn{
         display: none;
+    }
+    .owl-item{
+        width: 350px;
     }
 
 }
@@ -4424,6 +4440,24 @@ footer{
         margin: 15px;
     }
 
+    .filter {
+        margin-right: auto;
+        margin-left: auto;
+      }
+
+
+}
+
+@media (max-width : 360px){
+    .filter ul li span{
+        margin: 15px;
+    }
+
+    .filter {
+        margin-right: auto;
+        margin-left: auto;
+      }
+
 
 }
 
@@ -4432,8 +4466,10 @@ footer{
         padding-left: 175px;
     }
     .filter {
-        width: 870px;
-        margin-right: 20px;
+
+        margin-right: auto;
+        margin-left: auto;
+
       }
 
 
@@ -4444,8 +4480,8 @@ footer{
         padding-left: 55px;
     }
     .filter {
-        width: 1120px;
-        margin-right: 20px;
+        margin-right: auto;
+        margin-left: auto;
       }
 
 
@@ -4464,9 +4500,14 @@ footer{
 }
 @media (max-width : 568px){
     .filter{
-        width: 20px;
-        margin-right: 20px;
+        width: 290px !important;
+        margin-right: auto;
+        margin-left: auto;
     }
+
+    .search-input input {
+        height: 2%;
+      }
 }
 
 @media (max-width : 667px){
@@ -4511,12 +4552,32 @@ footer{
     }
     .filter{
         width: 340px;
-        margin-right: 20px;
+        margin-right: auto;
+        margin-left: auto;
     }
 
 }
 #login-form{
     width: 70%;
+}
+
+.filter ul a{
+    cursor: pointer;
+}
+
+.btn {
+    cursor: pointer;
+    border: 1px solid #3498db;
+    background-color: transparent;
+    height: 50px;
+    width: 150px;
+    color: #3498db;
+    font-size: 3px;
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+}
+
+.property{
+    
 }
 
 
